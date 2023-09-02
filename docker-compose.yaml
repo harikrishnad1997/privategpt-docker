@@ -18,3 +18,5 @@ services:
             - driver: nvidia
               count: 1
               capabilities: [gpu]
+    platform: linux/amd64  # Specify the architecture for x86_64
+
